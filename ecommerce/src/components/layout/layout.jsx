@@ -5,12 +5,12 @@ import AboutPage from "../../pages/aboutpage";
 import { Route, Routes } from "react-router-dom";
 import Contact from "../../pages/contact";
 
-import Cart from "./pages/cart";
-import Error from "./pages/errorpage";
-import About from "./pages/aboutpage";
-import Contact from "./pages/contact";
-import Signup from "./pages/signup";
-import Login from "./pages/login";
+import Cart from "../../pages/cart";
+import Error from "../../pages/errorpage";
+import About from "../../pages/aboutpage";
+import Contact from "../../pages/contact";
+import Signup from "../../pages/signup";
+import Login from "../../pages/login";
 
 import {
   Advertisement,
@@ -22,9 +22,9 @@ import {
   Showcase,
   Card5,
   Card6,
-} from "./pages/hompage.jsx";
-import { Details, Details1 } from "./pages/details.jsx";
-import { WishlistCards, WishlistCards1 } from "./pages/wishlist.jsx";
+} from "../../pages/hompage.jsx";
+import { Details, Details1 } from "../../pages/details.jsx";
+import { WishlistCards, WishlistCards1 } from "../../pages/wishlist.jsx";
 
 export const Wishlist = () => {
   return (
