@@ -22,7 +22,7 @@ import {
   Showcase,
   Card5,
   Card6,
-} from "./pages/showcase.jsx";
+} from "./pages/hompage.jsx";
 import { Details, Details1 } from "./pages/details.jsx";
 import { WishlistCards, WishlistCards1 } from "./pages/wishlist.jsx";
 
