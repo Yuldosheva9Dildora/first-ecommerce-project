@@ -22,9 +22,9 @@ import {
   Showcase,
   Card5,
   Card6,
-} from "./showcase.jsx";
-import { Details, Details1 } from "./details.jsx";
-import { WishlistCards, WishlistCards1 } from "./wishlist.jsx";
+} from "./pages/showcase.jsx";
+import { Details, Details1 } from "./pages/details.jsx";
+import { WishlistCards, WishlistCards1 } from "./pages/wishlist.jsx";
 
 export const Wishlist = () => {
   return (
