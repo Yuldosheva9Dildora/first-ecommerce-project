@@ -261,3 +261,154 @@ align-items: center;
     transition: transform 0.3s;
    }
 }
+
+
+
+
+@media (max-width: 375px) { 
+  .storytext h1 {
+    font-size: 36px;
+  }
+  .storytext p {
+    font-size: 14px;
+  }
+  .cards, .cardss {
+    width: 90%;
+    height: auto;
+    padding: 20px;
+  }
+  .person {
+    width: 100%;
+  }
+  .personimg {
+    height: 350px;
+  }
+}
+
+@media (min-width: 414px) and (max-width: 896px) { 
+  .storytext h1 {
+    font-size: 40px;
+  }
+  .storytext p {
+    font-size: 15px;
+  }
+  .card, .cardd {
+    gap: 10px;
+  }
+  .iconbg{
+    bottom: 10px;
+  }
+}
+
+@media (min-width: 390px) and (max-width: 844px) {
+  .storytext h1 {
+    font-size: 42px;
+  }
+  .storytext p {
+    font-size: 16px;
+  }  .iconbg{
+    bottom: 10px;
+  }
+}
+
+@media (min-width: 430px) and (max-width: 926px) { 
+  .storytext h1 {
+    font-size: 44px;
+  }  .iconbg{
+    bottom: 10px;
+  }
+}
+
+@media (min-width: 411px) and (max-width: 731px) {
+  .storytext h1 {
+    font-size: 38px;
+  }
+  .cards, .cardss {
+    width: 85%;
+    margin: 10px auto;
+  }  .iconbg{
+    bottom: 10px;
+  }  .iconbg{
+    bottom: 10px;
+  }
+}
+
+@media (min-width: 360px) and (max-width: 740px) { 
+  .storycontent {
+    flex-direction: column;
+    align-items: center;
+  }
+  .storyimg img {
+    width: 100%;
+  }  .iconbg{
+    bottom: 10px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 720px) {
+  .storycontent {
+    flex-direction: column;
+    align-items: center;
+  }  .iconbg{
+    bottom: 10px;
+  }
+}
+
+@media (min-width: 1280px) and (max-width: 1440px) { 
+  .storytext h1 {
+    font-size: 50px;
+  }
+  .storytext p {
+    font-size: 18px;
+  }  .iconbg{
+    top: 10px;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1366px) { 
+  .storytext h1 {
+    font-size: 52px;
+  }  .iconbg{
+    top: 10px;
+  }
+}
+
+@media (min-width: 900px) and (max-width: 1280px) {
+  .storytext h1 {
+    font-size: 48px;
+  }
+  .cards, .cardss {
+    width: 300px;
+    height: 250px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) { 
+  .storytext h1 {
+    font-size: 45px;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 1280px) {
+  .storytext h1 {
+    font-size: 48px;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1200px) { 
+  .storytext h1 {
+    font-size: 50px;
+  }
+  .cards, .cardss {
+    width: 85%;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1600px) { 
+  .storytext h1 {
+    font-size: 56px;
+  }
+}
+
+
