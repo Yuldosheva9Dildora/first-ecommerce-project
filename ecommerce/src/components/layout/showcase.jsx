@@ -1,5 +1,5 @@
-const showcase = "./images/showcase.png";
-const logo = "./images/logo.png";
+const showcase = "./assets/showcase.png";
+const logo = "./assets/logo.png";
 import "./showcase.css";
 
 export const Showcase = () => {
@@ -48,10 +48,10 @@ export const Showcase = () => {
   );
 };
 
-const playstation = "./images/playstation.png";
-const keyboard = "./images/keyboard.png";
-const monitor = "./images/monitor.png";
-const chair = "./images/chair.png";
+const playstation = "./assets/playstation.png";
+const keyboard = "./assets/keyboard.png";
+const monitor = "./assets/monitor.png";
+const chair = "./assets/chair.png";
 
 export const Card1 = () => {
   const cards = [
@@ -202,12 +202,12 @@ export const Line = () => {
   );
 };
 
-const phone = "./images/phone.png";
-const watch = "./images/smartwatch.png";
-const headphone = "./images/headphone.png";
-const camera = "./images/camera.png";
-const gamepad = "./images/gamepad.png";
-const computer = "./images/computer.png";
+const phone = "./assets/phone.png";
+const watch = "./assets/smartwatch.png";
+const headphone = "./assets/headphone.png";
+const camera = "./assets/camera.png";
+const gamepad = "./assets/gamepad.png";
+const computer = "./assets/computer.png";
 
 export const Card2 = () => {
   return (
@@ -265,10 +265,10 @@ export const Card2 = () => {
   );
 };
 
-const jacket = "./images/jacket.png";
-const purse = "./images/purse.png";
-const cooler = "./images/cooler.png";
-const bookshelf = "./images/bookshelf.png";
+const jacket = "./assets/jacket.png";
+const purse = "./assets/purse.png";
+const cooler = "./assets/cooler.png";
+const bookshelf = "./assets/bookshelf.png";
 
 export const Card3 = () => {
   const cards = [
@@ -374,7 +374,7 @@ export const Card3 = () => {
   );
 };
 
-const advertisementImg = "./images/advertisement-img.png";
+const advertisementImg = "./assets/advertisement-img.png";
 
 export const Advertisement = () => {
   return (
@@ -418,14 +418,14 @@ export const Advertisement = () => {
   );
 };
 
-const corn = "./images/corn.png";
-const camera1 = "./images/camera1.png";
-const laptop = "./images/laptop.png";
-const cream = "./images/cream.png";
-const car = "./images/car.png";
-const shoes = "./images/shoes.png";
-const gamepad1 = "./images/gamepad1.png";
-const jacket1 = "./images/jacket1.png";
+const corn = "./assets/corn.png";
+const camera1 = "./assets/camera1.png";
+const laptop = "./assets/laptop.png";
+const cream = "./assets/cream.png";
+const car = "./assets/car.png";
+const shoes = "./assets/shoes.png";
+const gamepad1 = "./assets/gamepad1.png";
+const jacket1 = "./assets/jacket1.png";
 
 import { Link } from "react-router-dom";
 
@@ -574,10 +574,10 @@ export const Card4 = () => {
   );
 };
 
-const Img1 = "./images/Img1.png";
-const Img2 = "./images/Img2.png";
-const Img3 = "./images/Img3.png";
-const Img4 = "./images/Img4.png";
+const Img1 = "./assets/Img1.png";
+const Img2 = "./assets/Img2.png";
+const Img3 = "./assets/Img3.png";
+const Img4 = "./assets/Img4.png";
 
 export const Card5 = () => {
   return (
@@ -649,9 +649,9 @@ export const Card5 = () => {
   );
 };
 
-const service = "./images/service.png";
-const service1 = "./images/service1.png";
-const service2 = "./images/service2.png";
+const service = "./assets/service.png";
+const service1 = "./assets/service1.png";
+const service2 = "./assets/service2.png";
 
 export const Card6 = () => {
   const cards = [
