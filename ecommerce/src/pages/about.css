@@ -1,0 +1,263 @@
+/* About page specific styles */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jolly+Lodger&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Playwrite+IE+Guides&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+  font-family: "Poppins", serif;
+}
+.about {
+  margin: 0 auto;
+  display: flex;
+ flex-direction: column;
+ align-items: center; padding: 50px;
+font-family: "Poppins", serif;
+}
+
+.aboutone {
+  margin: 0 auto;
+
+  display: flex;
+margin-left: 150px;
+margin-top: 100px;
+margin-bottom: -140px;
+  color: white;
+}
+
+.story {
+  margin: 0 auto;
+
+  display: flex;
+flex-direction: column;
+ min-height: 100vh;
+margin-top: 100px;
+  width: 100%;
+}
+
+.storycontent {
+  display: flex;
+flex-direction: row;
+justify-content: space-between;
+width: 90%; margin-left: auto;
+  flex-wrap: wrap;
+}
+
+.storytext {
+flex: 1;
+ margin-right: 40px;
+ margin-top: 110px;
+}
+
+.storytext h1 {
+  font-size: 54px;
+ font-weight: bold;
+}
+
+.storytext p {
+font-size: 16px;
+}
+
+.storyimg {
+ flex: 1;
+ margin-left: 10px;
+}
+.storyimg img {
+ width: 100%;
+ height: 100%;
+ transition: transform 0.3s;
+}
+.storyimg img:hover {
+ transform: scale(1.05);
+}
+.card {
+display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ gap: 20px;
+margin-top: 100px;
+}
+.cardd {
+  display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   gap: 20px;
+  margin-top: 100px;
+  }
+.cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  border: 2px solid rgb(176, 172, 172);
+  border-radius: 10px;
+  width: 270px;
+  height: 230px;
+  text-align: center;
+  transition: background-color 0.3s, color 0.3s;
+  position: relative;
+}
+.cardss {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  border-radius: 10px;
+  width: 300px;
+  height: 230px;
+  text-align: center;
+  transition: background-color 0.3s, color 0.3s;
+  position: relative;
+}
+.cards h1 {
+  font-size: 24px;
+  font-weight: bold;
+}
+.cardss h1 {
+  font-size: 20px;
+  font-weight: bolder;
+}
+.cards:hover,.cardss:hover  {
+  background-color: #DB4444;
+  color: white;
+  border: none;
+  cursor: pointer;
+
+}
+.icon {
+width: 63px;
+height: 63px;
+ background-color: black;
+border-radius: 50%;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-bottom: 10px; 
+
+} 
+.icon:hover {
+  background-color: white;
+}
+
+.icon svg {
+ width: 40px;
+height: 40px;
+color: white;
+transition: color 0.3s;
+}
+.iconbg { position: absolute; width: 86px; height: 86px; 
+  background-color: rgba(131, 120, 120, 0.28); 
+   border-radius: 50%; top: -30px; 
+    display: flex; 
+    align-items: center;
+     justify-content: center;
+  top:28px;
+  z-index: -1;
+    }
+  
+    .iconbgg { position: absolute; width: 86px; height: 86px; 
+      background-color: rgba(131, 120, 120, 0.28); 
+       border-radius: 50%; top: -30px; 
+        display: flex; 
+        align-items: center;
+         justify-content: center;
+      top:34px;
+      z-index: -1;  
+        }
+.icon:hover svg {
+color: rgb(15, 13, 13);
+cursor: pointer;
+}
+.people {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+width: 85%;
+padding-top: 100px;
+ margin: 0 auto;
+ gap: 8px;
+}
+.person {
+display: flex;
+flex-direction: column;
+width: 360px;
+margin-bottom: 50px;
+}
+.personimg {
+ background-color: #F5F5F5;
+border-radius: 10px;
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: flex-end;
+height: 450px;
+cursor: pointer;
+}
+.personimg img {
+width: 236px;
+transition: transform 0.3s;
+}
+.personimg img:hover {
+  transform: scale(1.05);
+}.socials {
+  display: flex;
+  gap: 20px;
+  margin-top: 10px;
+}.socials a {
+  color: inherit;
+  transition: color 0.3s;
+}.socials a:hover {
+  color: #007BFF; 
+}
+.person h1{
+ font-size: 25px;
+ margin-top: 10px;
+}
+@media (max-width: 808px) {
+  .storycontent {
+  flex-direction: column;
+  align-items: center;
+  }
+.storytext, .storyimg {
+  width: 100%;
+  }
+.people {
+  flex-direction: column;
+  align-items: center;
+  }
+  .card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 20px;
+  }
+  .storyimg img {
+    width: 100%;
+    height: 100%;
+   }
+}
+
+@media (max-width: 600px) {
+  .storycontent {
+  flex-direction: column;
+align-items: center;
+gap: 20px;  }
+  .storytext, .storyimg {
+ width: 100%;
+  }
+  .people {
+flex-direction: column;
+align-items: center;
+  }
+  .card {
+    margin-top: 20px;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ margin-top: 20px;
+  }
+  .storyimg img {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s;
+   }
+}
