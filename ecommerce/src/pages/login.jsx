@@ -7,7 +7,7 @@ const Login = () => {
   return (
 <div className='flex justify-center flex-col md:flex-row gap-5 min-h-screen font-normal mt-10'>
 <div className='hidden md:flex justify-center ml-[-120px] mt-[10px] mr-[100px]'>
-  <img src='public/img/Signup.jpeg'  alt='signup'  className='w-full md:w-[700px] lg:w-[800px] h-auto md:h-[600px] lg:h-[706px]'  /> </div>
+  <img src='public/assets/Signup.jpeg'  alt='signup'  className='w-full md:w-[700px] lg:w-[800px] h-auto md:h-[600px] lg:h-[706px]'  /> </div>
 
   <div className='flex mt-[70px] flex-col gap-5 w-full sm:w-[430px] h-[611px] leading-10 p-4 sm:p-8 h-auto my-auto rounded'>
  <h1 className='text-[36px] mt-6'>Log in to Exclusive</h1>
