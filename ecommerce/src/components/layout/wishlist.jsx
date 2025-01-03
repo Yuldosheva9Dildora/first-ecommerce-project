@@ -1,11 +1,11 @@
-const laptop = "./images/laptop.png";
-const gamepad1 = "./images/gamepad1.png";
-const jacket1 = "./images/jacket1.png";
-const purse = "./images/purse.png";
-const cooler = "./images/cooler.png";
-const playstation = "./images/playstation.png";
-const keyboard = "./images/keyboard.png";
-const monitor = "./images/monitor.png";
+const laptop = "./assets/laptop.png";
+const gamepad1 = "./assets/gamepad1.png";
+const jacket1 = "./assets/jacket1.png";
+const purse = "./assets/purse.png";
+const cooler = "./assets/cooler.png";
+const playstation = "./assets/playstation.png";
+const keyboard = "./assets/keyboard.png";
+const monitor = "./assets/monitor.png";
 
 const objectWishlist = [
   { img: purse, title: "Gucci duffle bag", price: "$960", rate: 65, id: 11 },
