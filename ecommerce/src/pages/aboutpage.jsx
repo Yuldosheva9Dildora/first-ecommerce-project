@@ -25,7 +25,7 @@ ranging from consumer.
 </div>
 
 <div className='sm:my-0 my-[-100px]'>
-    <img className='w-[1400px]' src='/img/SideImage.png' alt='about'/>
+    <img className='w-[1400px]' src='/assets/SideImage.png' alt='about'/>
 </div>
 </div>
 
@@ -86,7 +86,7 @@ ranging from consumer.
 
 <div className='flex flex-col gap-10 mx-auto justify-between w-[80%] py-[100px] sm:flex sm:flex-row'>
 <div className='flex flex-col gap-1'>
-  <div className='bg-[#F5F5F5] w-[360px] h-[450px] flex-col flex justify-end rounded-lg '><img className='w-[236px] relative left-[60px]' src='/img/firstface.png' alt='first'/></div>
+  <div className='bg-[#F5F5F5] w-[360px] h-[450px] flex-col flex justify-end rounded-lg '><img className='w-[236px] relative left-[60px]' src='/assets/firstface.png' alt='first'/></div>
   <h1 className=' text-[32px]'>Tom Cruise</h1>
   <h1 className='text-[16px]'>Founder & Chairman</h1>
   <div className='flex flex-row gap-4'>
@@ -97,7 +97,7 @@ ranging from consumer.
 </div>
 
 <div className='flex flex-col gap-1'>
-  <div className='bg-[#F5F5F5] w-[360px] h-[450px] flex-col flex justify-end rounded-lg '><img className='w-[286px] relative left-[40px]' src='/img/secondface.png' alt='first'/></div>
+  <div className='bg-[#F5F5F5] w-[360px] h-[450px] flex-col flex justify-end rounded-lg '><img className='w-[286px] relative left-[40px]' src='/assets/secondface.png' alt='first'/></div>
   <h1 className=' text-[32px]'>Emma Watson</h1>
   <h1 className='text-[16px]'>Managing Director</h1>
   <div className='flex flex-row gap-4'>
@@ -108,7 +108,7 @@ ranging from consumer.
 </div>
 
 <div className='flex flex-col gap-1'>
-  <div className='bg-[#F5F5F5] w-[360px] h-[450px] flex-col flex justify-end rounded-lg '><img className='w-[236px] relative left-[60px] top-[0px]' src='/img/thirdface.png' alt='first'/></div>
+  <div className='bg-[#F5F5F5] w-[360px] h-[450px] flex-col flex justify-end rounded-lg '><img className='w-[236px] relative left-[60px] top-[0px]' src='/assets/thirdface.png' alt='first'/></div>
   <h1 className=' text-[32px]'>Will Smith</h1>
   <h1 className='text-[16px]'>Product Designer</h1>
   <div className='flex flex-row gap-4'>
