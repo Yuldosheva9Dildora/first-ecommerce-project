@@ -36,7 +36,7 @@ if (value >= 1 && value <= 100) {
 
      <div className="hover:bg-gray-100 rounded cursor-pointer flex gap-4 sm:gap-6 md:gap-10 shadow-lg justify-between sm:justify-around w-full md:w-[1120px] h-[95px] text-[12px] sm:text-[16px] bg-white p-4 sm:p-6 relative">
   <div className="flex gap-3  items-center relative">
-  <img className="  w-[40px] sm:w-[59px] h-[40px] sm:h-[54px] my-[-8px]"src="/public/img/tv_cart.png" alt="LCD Monitor"/>
+  <img className="  w-[40px] sm:w-[59px] h-[40px] sm:h-[54px] my-[-8px]"src="/public/assets/tv_cart.png" alt="LCD Monitor"/>
    <p className="flex bg-red-500 text-white rounded-full w-[20px] h-[20px] px-[5px] absolute top-3 sm:top-1 p-0.5 sm:py-0">X</p>{" "}
 <span>LCD Monitor</span>
 </div>
@@ -47,7 +47,7 @@ if (value >= 1 && value <= 100) {
 
 <div className="hover:bg-gray-100 rounded cursor-pointer  flex gap-4 sm:gap-6 md:gap-10 shadow-lg justify-between sm:justify-around w-full md:w-[1120px] h-[95px] text-[12px] sm:text-[16px] bg-white sm:p-6 px-4">
 <div className="flex gap-3 items-center">
-<img className="w-[40px] sm:w-[59px] h-[40px] sm:h-[54px] my-[-13px]" src="/public/img/playstation_cart.png"alt="H1 Gamepad"/>
+<img className="w-[40px] sm:w-[59px] h-[40px] sm:h-[54px] my-[-13px]" src="/public/assets/playstation_cart.png"alt="H1 Gamepad"/>
 <span>H1 Gamepad</span>
 </div>
 <h1 className="py-10 sm:py-3">$550</h1>
@@ -57,7 +57,7 @@ if (value >= 1 && value <= 100) {
 
  <div className="hover:bg-gray-100 rounded cursor-pointer flex gap-4 sm:gap-6 md:gap-10 shadow-lg justify-between sm:justify-around w-full md:w-[1120px] h-[95px] text-[12px] sm:text-[16px] bg-white p-4 sm:p-6 relative">
   <div className="flex gap-3  items-center relative">
-  <img className="  w-[40px] sm:w-[59px] h-[40px] sm:h-[54px] my-[-8px]"src="/public/img/laptop.png" alt="LCD Monitor"/>
+  <img className="  w-[40px] sm:w-[59px] h-[40px] sm:h-[54px] my-[-8px]"src="/public/assets/laptop.png" alt="LCD Monitor"/>
    <p className="flex bg-red-500 text-white rounded-full w-[20px] h-[20px] px-[5px] absolute top-3 sm:top-1 p-0.5 sm:py-0">X</p>{" "}
 <span>ASUS laptop</span>
 </div>
