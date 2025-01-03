@@ -4,10 +4,14 @@ import About from "./components/aboutpage"
 
 
 function App() {
-  return <Layout />
+  return (
+    <>
+    <Layout />
     <Error/>
     <About/>
-    ;
+    </>
+    
+  )
 }
 
 export default App;
