@@ -5,6 +5,13 @@ import AboutPage from "../../pages/aboutpage";
 import { Route, Routes } from "react-router-dom";
 import Contact from "../../pages/contact";
 
+import Cart from "./pages/cart";
+import Error from "./pages/errorpage";
+import About from "./pages/aboutpage";
+import Contact from "./pages/contact";
+import Signup from "./pages/signup";
+import Login from "./pages/login";
+
 import {
   Advertisement,
   Card1,
@@ -58,11 +65,18 @@ function Layout() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/about" element={<AboutPage />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="details/:id" element={<CardDetails />} />
         <Route path="wishlist" element={<Wishlist />} />
         <Route path="*" element={<Error />} />
+
+
+        <Route path="/about" element={<About />} />
+        <Route path="/cart" element={<Cart />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/signup" element={<Signup />} />
+        <Route path="/login" element={<Login />} />
+
       </Routes>
       <Footer />
     </>
