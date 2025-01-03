@@ -1,0 +1,45 @@
+
+
+@media (max-width: 1023px) {
+
+.sidebar{
+    display: flex;
+}
+
+
+.label1{
+    width: 50%;
+    height: 100vh;
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+    position: fixed;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    font-size:larger;
+    padding: 0 4px;
+    right: -50%;
+    transition: 0.8s;
+}
+
+
+.label{
+    position: relative;
+    color: black;
+    top: -20px;
+    left: 30px;
+    font-size: xx-large;
+    margin-right: 5%;
+}
+
+#menu:checked ~ .label1{
+    right: 0;
+}
+
+
+.slide{
+    margin-right: 20px;
+}
+}
+
