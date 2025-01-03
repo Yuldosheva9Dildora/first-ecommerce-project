@@ -136,11 +136,11 @@ export const Card1 = () => {
       </div>
 
       <div className="box1 flex items-center justify-center flex-col">
-        <div className="cards flex flex-wrap gap-5 justify-center items-center mb-10 mt-10">
+        <div className="homepageCard flex flex-wrap gap-5 justify-center items-center mb-10 mt-10">
           {cards.map((card, index) => (
             <div
               key={index}
-              className="card w-60 h-72 flex flex-col rounded-lg relative justify-between"
+              className="homepageCard w-60 h-72 flex flex-col rounded-lg relative justify-between"
             >
               <Link to={`/details/${card.id}`}>
                 <div className="card_img group relative hover:scale-110 transition duration-500 bg-gray-200 w-full h-full overflow-hidden rounded-lg">
@@ -235,28 +235,28 @@ export const Card2 = () => {
           </a>
         </div>
       </div>
-      <div className="cards flex items-center justify-center gap-8 mb-16 mt-16 flex-wrap">
-        <div className="card flex flex-col items-center justify-center w-36 h-32 border-2 border-gray-900 rounded-lg hover:scale-110 transition duration-500 hover:bg-red-500">
+      <div className="homePageCards1 flex items-center justify-center gap-8 mb-16 mt-16 flex-wrap">
+        <div className="Pagecard flex flex-col items-center justify-center w-36 h-32 border-2 border-gray-900 rounded-lg hover:scale-110 transition duration-500 hover:bg-red-500">
           <img src={phone} alt="" />
           <h2>Phones</h2>
         </div>
-        <div className="card flex flex-col items-center justify-center w-36 h-32 border-2 border-gray-900 rounded-lg hover:scale-110 transition duration-500 hover:bg-red-500">
+        <div className="Pagecard flex flex-col items-center justify-center w-36 h-32 border-2 border-gray-900 rounded-lg hover:scale-110 transition duration-500 hover:bg-red-500">
           <img src={computer} alt="" />
           <h2>Computers</h2>
         </div>
-        <div className="card flex flex-col items-center justify-center w-36 h-32 border-2 border-gray-900 rounded-lg hover:scale-110 transition duration-500 hover:bg-red-500">
+        <div className="Pagecard flex flex-col items-center justify-center w-36 h-32 border-2 border-gray-900 rounded-lg hover:scale-110 transition duration-500 hover:bg-red-500">
           <img src={watch} alt="" />
           <h2>SmartWatch</h2>
         </div>
-        <div className="card flex flex-col items-center justify-center w-36 h-32 border-2 border-gray-900 rounded-lg hover:scale-110 transition duration-500 hover:bg-red-500">
+        <div className="Pagecard flex flex-col items-center justify-center w-36 h-32 border-2 border-gray-900 rounded-lg hover:scale-110 transition duration-500 hover:bg-red-500">
           <img src={camera} alt="" />
           <h2>Camera</h2>
         </div>
-        <div className="card flex flex-col items-center justify-center w-36 h-32 border-2 border-gray-900 rounded-lg hover:scale-110 transition duration-500 hover:bg-red-500">
+        <div className="Pagecard flex flex-col items-center justify-center w-36 h-32 border-2 border-gray-900 rounded-lg hover:scale-110 transition duration-500 hover:bg-red-500">
           <img src={headphone} alt="" />
           <h2>HeadPhones</h2>
         </div>
-        <div className="card flex flex-col items-center justify-center w-36 h-32 border-2 border-gray-900 rounded-lg hover:scale-110 transition duration-500 hover:bg-red-500">
+        <div className="Pagecard flex flex-col items-center justify-center w-36 h-32 border-2 border-gray-900 rounded-lg hover:scale-110 transition duration-500 hover:bg-red-500">
           <img src={gamepad} alt="" />
           <h2>Gaming</h2>
         </div>
@@ -325,11 +325,11 @@ export const Card3 = () => {
           </a>
         </div>
       </div>
-      <div className="cards flex flex-wrap gap-5 justify-center items-center mb-10 mt-10">
+      <div className="homePageCards3 flex flex-wrap gap-5 justify-center items-center mb-10 mt-10">
         {cards.map((card, index) => (
           <div
             key={index}
-            className="card w-60 h-72 flex flex-col rounded-lg relative justify-between"
+            className="PageCard2 w-60 h-72 flex flex-col rounded-lg relative justify-between"
           >
             <Link to={`/details/${card.id}`}>
               <div className="card_img group relative hover:scale-110 transition duration-500 bg-gray-200 w-full h-full overflow-hidden rounded-lg">
@@ -521,7 +521,7 @@ export const Card4 = () => {
           {cards.map((card, index) => (
             <div
               key={index}
-              className="card w-60 h-72 flex flex-col rounded-lg relative justify-between"
+              className="PageCard4 w-60 h-72 flex flex-col rounded-lg relative justify-between"
             >
               <Link to={`/details/${card.id}`}>
                 <div className="card_img group relative hover:scale-110 transition duration-500 bg-gray-200 w-full h-full overflow-hidden rounded-lg">
@@ -674,7 +674,7 @@ export const Card6 = () => {
 
   return (
     <div className="box6 my-16">
-      <div className="card flex items-center justify-center gap-10 flex-wrap">
+      <div className="PageCard6 flex items-center justify-center gap-10 flex-wrap">
         {cards.map((card, index) => (
           <div
             key={index}
