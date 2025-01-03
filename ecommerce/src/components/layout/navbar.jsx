@@ -69,8 +69,8 @@ const Navbar = () => {
               />
               <Search className="h-5 w-5" />
             </div>
-            <Heart className="h-5 w-5 cursor-pointer" />
-            <ShoppingCart className="h-5 w-5 cursor-pointer" />
+            <Link to="/wishlist"> <Heart className="h-5 w-5 cursor-pointer" /></Link>
+            <Link to="/cart"> <ShoppingCart className="h-5 w-5 cursor-pointer" /></Link>
           </div>
         </div>
 

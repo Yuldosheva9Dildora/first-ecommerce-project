@@ -1,9 +1,15 @@
 import Navbar from "./navbar";
 import Footer from "./footer";
-import Homepage from "../../pages/hompage";
+// import Homepage from "../../pages/hompage";
 import AboutPage from "../../pages/aboutpage";
 import { Route, Routes } from "react-router-dom";
+
+import Cart from "../../pages/cart";
+import Error from "../../pages/errorpage";
+import About from "../../pages/aboutpage";
 import Contact from "../../pages/contact";
+import Signup from "../../pages/signup";
+import Login from "../../pages/login";
 
 import {
   Advertisement,
@@ -15,9 +21,9 @@ import {
   Showcase,
   Card5,
   Card6,
-} from "./showcase.jsx";
+} from "../../pages/showcase.jsx";
 import { Details, Details1 } from "../../pages/details.jsx";
-import { WishlistCards, WishlistCards1 } from "./wishlist.jsx";
+import { WishlistCards, WishlistCards1 } from "../../pages/wishlist.jsx";
 
 export const Wishlist = () => {
   return (
@@ -36,7 +42,7 @@ export const CardDetails = () => {
   );
 };
 
-export const Home = () => {
+export const HomePage = () => {
   return (
     <div>
       <Showcase />
@@ -57,12 +63,17 @@ function Layout() {
     <>
       <Navbar />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<AboutPage />} />
+        <Route path="/" element={<HomePage />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="details/:id" element={<CardDetails />} />
         <Route path="wishlist" element={<Wishlist />} />
         <Route path="*" element={<Error />} />
+
+        <Route path="/about" element={<About />} />
+        <Route path="/cart" element={<Cart />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/signup" element={<Signup />} />
+        <Route path="/login" element={<Login />} />
       </Routes>
       <Footer />
     </>
