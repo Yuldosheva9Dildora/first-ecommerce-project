@@ -20,7 +20,7 @@ function About() {
   <p>Exclusive has more than 1 million products to offer, growing at a very fast pace. Exclusive offers a diverse assortment in categories ranging from consumer.</p>
   </div>
 
-  <div className="storyimg"><img src="/img/SideImage.png" alt="about" /> </div>
+  <div className="storyimg"><img src="/assets/SideImage.png" alt="about" /> </div>
  </div>
    <div className="card">
   <div className="cards">
@@ -46,7 +46,7 @@ function About() {
 
  <div className="people">
    <div className="person">
-  <div className="personimg"><img src="/img/firstface.png" alt="first" /></div>
+  <div className="personimg"><img src="/assets/firstface.png" alt="first" /></div>
   <h1>Tom Cruise</h1>
    <p>Founder & Chairman</p>
    <div className="socials">
@@ -57,7 +57,7 @@ function About() {
 
    </div>
   <div className="person">
-  <div className="personimg"><img src="/img/secondface.png" alt="second" /></div>
+  <div className="personimg"><img src="/assets/secondface.png" alt="second" /></div>
   <h1>Emma Watson</h1>
 <p>Managing Director</p>
   <div className="socials">
@@ -68,7 +68,7 @@ function About() {
 
   </div>
    <div className="person">
-   <div className="personimg"><img src="/img/thirdface.png" alt="third" /></div>
+   <div className="personimg"><img src="/assets/thirdface.png" alt="third" /></div>
     <h1>Will Smith</h1>
    <p>Product Designer</p>
  <div className="socials">
