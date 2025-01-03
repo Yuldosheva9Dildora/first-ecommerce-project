@@ -1,6 +1,6 @@
 import Navbar from "./navbar";
 import Footer from "./footer";
-import Homepage from "../../pages/hompage";
+// import Homepage from "../../pages/hompage";
 import AboutPage from "../../pages/aboutpage";
 import { Route, Routes } from "react-router-dom";
 import Contact from "../../pages/contact";
@@ -43,7 +43,7 @@ export const CardDetails = () => {
   );
 };
 
-export const Home = () => {
+export const HomePage = () => {
   return (
     <div>
       <Showcase />
@@ -64,7 +64,7 @@ function Layout() {
     <>
       <Navbar />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<HomePage />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="details/:id" element={<CardDetails />} />
         <Route path="wishlist" element={<Wishlist />} />
