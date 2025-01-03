@@ -1,22 +1,22 @@
 import { useParams } from "react-router-dom";
 import { Heart, Star } from "lucide-react";
 
-const corn = "./images/corn.png";
-const camera1 = "./images/camera1.png";
-const laptop = "./images/laptop.png";
-const cream = "./images/cream.png";
-const car = "./images/car.png";
-const shoes = "./images/shoes.png";
-const gamepad1 = "./images/gamepad1.png";
-const jacket1 = "./images/jacket1.png";
-const jacket = "./images/jacket.png";
-const purse = "./images/purse.png";
-const cooler = "./images/cooler.png";
-const bookshelf = "./images/bookshelf.png";
-const playstation = "./images/playstation.png";
-const keyboard = "./images/keyboard.png";
-const monitor = "./images/monitor.png";
-const chair = "./images/chair.png";
+const corn = "./assets/corn.png";
+const camera1 = "./assets/camera1.png";
+const laptop = "./assets/laptop.png";
+const cream = "./assets/cream.png";
+const car = "./assets/car.png";
+const shoes = "./assets/shoes.png";
+const gamepad1 = "./assets/gamepad1.png";
+const jacket1 = "./assets/jacket1.png";
+const jacket = "./assets/jacket.png";
+const purse = "./assets/purse.png";
+const cooler = "./assets/cooler.png";
+const bookshelf = "./assets/bookshelf.png";
+const playstation = "./assets/playstation.png";
+const keyboard = "./assets/keyboard.png";
+const monitor = "./assets/monitor.png";
+const chair = "./assets/chair.png";
 
 const cards = [
   {
@@ -169,8 +169,8 @@ const cards = [
   },
 ];
 
-const Return = "./images/return.png";
-const delivery = "./images/delivery.png";
+const Return = "./assets/return.png";
+const delivery = "./assets/delivery.png";
 import { Link } from "react-router-dom";
 
 export const Details = () => {
